@@ -47,6 +47,7 @@ textarea {
   color: black;
   position: relative;
   top: 40px;
+  right: 4%;
   font-size: 130%;
 }
 .jumbotron {
@@ -63,6 +64,36 @@ textarea {
 .time-block {
   text-align: center;
   border-radius: 15px;
+}
+
+#span9 {
+  position: relative;
+  right: 5%;
+}
+
+#span2 {
+  position: relative;
+  right: 5%;
+}
+
+#span3 {
+  position: relative;
+  right: 5%;
+}
+
+#span4 {
+  position: relative;
+  right: 5%;
+}
+
+#span5 {
+  position: relative;
+  right: 5%;
+}
+
+#span3 {
+  position: relative;
+  right: 5%;
 }
 
 .time {
