@@ -61,15 +61,20 @@ textarea {
   border-radius: 15px;
 }
 .row {
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   height: 80px;
   border-top: 1px solid white;
+}
+
+#container {
+  position: relative;
+  bottom: 33px;
 }
 
 .hour {
   background-color: lime;
   color: #000000;
-  border-top: 1px dashed #000000;
+  /* border-top: 1px dashed #000000; */
 }
 
 .past {
@@ -103,4 +108,8 @@ textarea {
 
 .red {
   background-color: red;
+}
+
+#input-nine {
+  background-color: #06aed5;
 }
