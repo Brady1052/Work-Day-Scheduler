@@ -10,17 +10,17 @@ console.log(currentTime);
 
 var allRows = document.querySelectorAll('.row');
 
-// for (var i = 0; i < allRows.length; i++) {
-//   var timeBlockHour = parseInt(allRows[i].id);
-//   console.log(allRows[i].id);
-//   if (timeBlockHour < currentTime) {
-//     $(allRows[i]).css('background-color', 'white');
-//   } else if (timeBlockHour > currentTime) {
-//     $(allRows[i]).css('background-color', 'green');
-//   } else {
-//     $(allRows[i]).css('background-color', 'red');
-//   }
-// }
+for (var i = 0; i < allRows.length; i++) {
+  var timeBlockHour = parseInt(allRows[i].id);
+  console.log(allRows[i].id);
+  if (timeBlockHour < currentTime) {
+    $(allRows[i]).css('background-color', 'white');
+  } else if (timeBlockHour > currentTime) {
+    $(allRows[i]).css('background-color', 'green');
+  } else {
+    $(allRows[i]).css('background-color', 'red');
+  }
+}
 
 $('.textData').click(function () {
   $(this).addClass('d-none');
